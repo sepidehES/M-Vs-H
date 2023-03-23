@@ -29,7 +29,6 @@ namespace Heroes_Vs_Monsters.Tools
             {
                 return pointVie + 2;
             }
-            return 0;
         }
     }
 }

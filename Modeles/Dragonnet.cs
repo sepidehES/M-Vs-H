@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Heroes_Vs_Monsters.Modeles
 {
-    public class Dragonnet
+    public class Dragonnet : Monstre
     {
         public Dragonnet(string nom) : base(nom)
         {

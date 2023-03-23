@@ -11,7 +11,7 @@ namespace Heroes_Vs_Monsters.Modeles
     {
         public Loup(string nom) : base(nom)
         {
-            Cuir = Dice.Lancer(DiceType.D4, 1) + 1;
+            Cuir = Dice.Lancer(DiceType.D4, 1);
         }
 
     }
